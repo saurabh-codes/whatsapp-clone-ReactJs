@@ -1,0 +1,59 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+
+.sidebar-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid #111b21;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+
+.sidebar-search{
+    display: flex;
+    align-items: center;
+    background-color: #111b21;
+    height: 39px;
+    padding: 10px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    background-color: #111b21;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.search-container > .MuiSvgIcon-root{
+    color: #8696a0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-container > input{
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 80%;
+    
+}
+
+.sidebar-chats{
+    flex: 1;
+    overflow: auto;
+    
+}
